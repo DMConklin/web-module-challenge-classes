@@ -22,6 +22,10 @@ class Airplane {
   }
 }
 
+const jet = new Airplane('jet')
+jet.takeOff()
+console.log(jet.isFlying)
+
 /*
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
